@@ -4,15 +4,18 @@
 
 This project focuses on developing an LSTM model for time series prediction of soil humidity, leveraging a Hierarchical Federated Learning (HFL) framework. The goal is to predict future soil conditions for more effective agricultural decision-making.
 
-### Key Features:
-- **LSTM Model**: Predicts 5-hour future values based on 10-minute interval data from sensor stations from the a partnership grant between university of Newcastle  and university  of Waikatoo.
-- **Federated Learning Integration**: Improves prediction accuracy by 94.2% compared to isolated local models.
-- **Data Augmentation**: Handles small datasets (2000-3000 samples) through augmentation techniques inspired by computer vision.
-- **Sensor Data Handling**: Interpolates missing values, suppresses zero/peak values, and smooths noisy data using rolling averages.
-
 ## Data
 
-![data](./images/data.png)
+<table>
+  <tr>
+    <td><img src="images/data1.png" alt="Image 1" width="250"/></td>
+    <td><img src="images/data1.png" alt="Image 2" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/data1.png" alt="Image 3" width="250"/></td>
+    <td><img src="images/data1.png" alt="Image 4" width="250"/></td>
+  </tr>
+</table>
 
 - **Source**: Real-world agricultural sensor data (soil humidity), collected across multiple clients.
 - **Challenges**: Small datasets, missing values, and noise.
