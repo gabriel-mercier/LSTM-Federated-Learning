@@ -27,7 +27,7 @@ This project focuses on developing an LSTM model for time series prediction of s
 
 ## Model Architecture
 
-![structure](./images/structure.png)
+<img src="./images/structure.png" alt="structure" width="400"/>
 
 The model architecture was fine-tuned to achieve the best results, with key hyperparameters being:
 
