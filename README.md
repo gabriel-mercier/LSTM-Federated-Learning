@@ -47,7 +47,7 @@ The model architecture was fine-tuned to achieve the best results, with key hype
 This project integrates **Flower**, a federated learning framework, to facilitate training across multiple clients and servers:
 
 - **Local Models**: Each client trains a model on their local data.
-- **Local Servers**: Aggregate models from clients within the server’s scope. Client 0 and 1 for Local Server 1 (LS1) and Client 2 and 3 for Local Server 2 (LS2)
+- **Local Servers**: Aggregate models from clients within the server’s scope.
 - **Global Server**: Aggregates local server models to produce a global model.
 
 ### Results:
