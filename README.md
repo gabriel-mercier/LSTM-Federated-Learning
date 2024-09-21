@@ -27,7 +27,7 @@ This project focuses on developing an LSTM model for time series prediction of s
 
 ## Model Architecture
 
-![structure](./images/structure.png)
+<img src="./images/structure.png" alt="structure" width="400"/>
 
 The model architecture was fine-tuned to achieve the best results, with key hyperparameters being:
 
@@ -55,7 +55,13 @@ This project integrates **Flower**, a federated learning framework, to facilitat
 - **Local Model Performance**: Local models suffered from lack of data, but served as useful benchmarks.
 - **Global Model**: Significant improvement in performance when aggregating across clients and servers.
 
-![results](./images/results.png)
+<img src="images/Results2.png" alt="Image 1" width="600"/>
+
+<img src="images/Results1.png" alt="Image 2" width="600"/>
+
+<img src="images/Results3.png" alt="Image 3" width="600"/>
+
+<img src="images/Results4.png" alt="Image 4" width="600"/>
 
 ## References
 
