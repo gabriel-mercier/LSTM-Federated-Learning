@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project focuses on developing an LSTM model for time series prediction of soil humidity, leveraging a Hierarchical Federated Learning (HFL) framework. The goal is to predict future soil conditions for more effective agricultural decision-making.
+This project focuses on developing an LSTM model for time series prediction of soil humidity, leveraging a Hierarchical Federated Learning (HFL) framework. The goal is to predict future soil conditions for more effective agricultural decision-making. 
+
+This project is part of the paper **Resilient RuralAI using Hierarchical Federated Learning to Forecast Soil Water Levels** : https://ieeexplore.ieee.org/document/11079051
 
 ## Data
 
